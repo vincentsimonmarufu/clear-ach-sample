@@ -1,0 +1,6 @@
+@HR.LeaveManagement.Identity_HostAddress = http://localhost:5222
+
+GET {{HR.LeaveManagement.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

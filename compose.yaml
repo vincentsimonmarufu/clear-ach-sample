@@ -1,0 +1,6 @@
+﻿services:
+  hr.leavemanagement.identity:
+    image: hr.leavemanagement.identity
+    build:
+      context: .
+      dockerfile: HR.LeaveManagement.Identity/Dockerfile

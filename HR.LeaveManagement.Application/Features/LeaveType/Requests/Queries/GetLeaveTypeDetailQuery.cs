@@ -6,5 +6,5 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Requests.Queries;
 
 public class GetLeaveTypeDetailQuery : IRequest<LeaveTypeDto>
 {
-    public int id { get; set; }
+    public int Id { get; set; }
 }

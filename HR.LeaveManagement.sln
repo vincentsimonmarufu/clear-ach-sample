@@ -16,6 +16,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{8890FE15-31CD-49AD-9630-D1C74425268B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{B87F1202-D801-48B7-AE25-AB6D22D951C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{F25177CD-9364-4A92-831E-C7FE51269CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Api", "HR.LeaveManagement.Api\HR.LeaveManagement.Api.csproj", "{DAB6B341-4298-462F-BCFA-3194A98BA1F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{4A2669D0-711F-4D43-8029-707E412CD654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Identity", "HR.LeaveManagement.Identity\HR.LeaveManagement.Identity.csproj", "{9D6DCAC1-3CAE-4839-9622-3951FE11D965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F667E1FA-98F1-412C-8CC0-CAB0AF114ADE}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +43,11 @@ Global
 		{2C31B494-FE04-4CD6-A8DE-5D61C0FCAF89} = {0B2668C3-3299-4BA4-A960-EA62A8F30D4C}
 		{7C71ADC7-C197-496C-BDE8-106C14628546} = {554D04FD-0CCE-44D3-8D93-F014D7DF8B73}
 		{8890FE15-31CD-49AD-9630-D1C74425268B} = {554D04FD-0CCE-44D3-8D93-F014D7DF8B73}
+		{B87F1202-D801-48B7-AE25-AB6D22D951C5} = {37F66764-2F7D-4B79-AD74-96444291E499}
+		{F25177CD-9364-4A92-831E-C7FE51269CE3} = {37F66764-2F7D-4B79-AD74-96444291E499}
+		{DAB6B341-4298-462F-BCFA-3194A98BA1F5} = {C7B64708-96F2-4AF9-8387-A2735EDF7D0E}
+		{4A2669D0-711F-4D43-8029-707E412CD654} = {0B2668C3-3299-4BA4-A960-EA62A8F30D4C}
+		{9D6DCAC1-3CAE-4839-9622-3951FE11D965} = {4A2669D0-711F-4D43-8029-707E412CD654}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7C71ADC7-C197-496C-BDE8-106C14628546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +58,21 @@ Global
 		{8890FE15-31CD-49AD-9630-D1C74425268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8890FE15-31CD-49AD-9630-D1C74425268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8890FE15-31CD-49AD-9630-D1C74425268B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87F1202-D801-48B7-AE25-AB6D22D951C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87F1202-D801-48B7-AE25-AB6D22D951C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87F1202-D801-48B7-AE25-AB6D22D951C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87F1202-D801-48B7-AE25-AB6D22D951C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25177CD-9364-4A92-831E-C7FE51269CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25177CD-9364-4A92-831E-C7FE51269CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25177CD-9364-4A92-831E-C7FE51269CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25177CD-9364-4A92-831E-C7FE51269CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB6B341-4298-462F-BCFA-3194A98BA1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB6B341-4298-462F-BCFA-3194A98BA1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB6B341-4298-462F-BCFA-3194A98BA1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB6B341-4298-462F-BCFA-3194A98BA1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6DCAC1-3CAE-4839-9622-3951FE11D965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6DCAC1-3CAE-4839-9622-3951FE11D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6DCAC1-3CAE-4839-9622-3951FE11D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6DCAC1-3CAE-4839-9622-3951FE11D965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
